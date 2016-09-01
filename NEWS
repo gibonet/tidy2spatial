@@ -1,0 +1,23 @@
+
+
+tidy2spatial 0.0.1
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* New function union_polygons: create a new SpatialPolygonsDataFrame with
+  'unioned' polygons, starting from a SpatialPolygonsDataFrame
+* Moved the maptools package from Imports to Depends
+* New function union_tidy: combine tidy2sp, union_polygons and broom::tidy
+* Added argument .keep_all = TRUE in a call to dplyr::distinct_ in function
+  union_polygons, to be compatible with dplyr version 0.5.0.
+
+
+
+tidy2spatial 0.0.0
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* Very first version of the package. Type help(package="tidy2spatial") to run documentation.
+* Function tidy2sp: transforms a tidy data with map coordinates in a SpatialPolygonsDataFrame

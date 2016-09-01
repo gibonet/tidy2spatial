@@ -1,0 +1,22 @@
+Package: tidy2spatial
+Title: Function to Transform a Tidy Data with Map Coordinates in a
+    SpatialPolygonsDataFrame
+Description: Function to Transform a Tidy Data with Map Coordinates in
+    a SpatialPolygonsDataFrame. Typically a data frame used to do geographic
+    maps with ggplot2 will be transformed, with function tidy2spatial, in a
+    SpatialPolygonsDataFrame.
+Version: 0.0.1
+License: GPL-2
+Author: Sandro Petrillo Burri <gibo.gaf@gmail.com>
+Maintainer: Sandro Petrillo Burri <gibo.gaf@gmail.com>
+Depends:
+    R (>= 2.10),
+    maptools
+Imports:
+    dplyr (>= 0.4.3),
+    magrittr (>= 1.5),
+    sp,
+    broom,
+    rgeos
+Encoding: UTF-8
+RoxygenNote: 5.0.1
